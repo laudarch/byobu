@@ -1,5 +1,12 @@
-byobu (5.108) unreleased; urgency=medium
+byobu (5.109) unreleased; urgency=medium
 
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 31 May 2016 10:03:15 -0500
+
+byobu (5.108-0ubuntu1) yakkety; urgency=medium
+
+  [ Dustin Kirkland ]
   * usr/lib/byobu/updates_available:
     - remove trailing whitespace
   * usr/lib/byobu/battery:
@@ -7,7 +14,11 @@ byobu (5.108) unreleased; urgency=medium
       POWER_SUPPLY_CHARGE_NOW are available; important for summing
       multiple batteries
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 09 May 2016 18:26:22 -0500
+  [ Kevin Mark and Dustin Kirkland ]
+  * usr/lib/byobu/uptime:
+    - fix uptime status on MacOS
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 31 May 2016 10:03:12 -0500
 
 byobu (5.107-0ubuntu1) yakkety; urgency=medium
 
